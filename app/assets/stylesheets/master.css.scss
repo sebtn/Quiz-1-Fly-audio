@@ -77,14 +77,6 @@ div.speakers p {
     
 }
 
-@media (max-width: 750px) {
-    .footer-blurb {
-        font-family: 'fascinateinline', sans-serif;
-        text-align:left;
-        font-size:15x;
-        } 
-    }
-
 div.low-end{
     font-size: 25px;
 }
@@ -95,4 +87,9 @@ div.high-end{
 
 div.mid-end{
     font-size: 25px;
+}
+
+div.music {
+    font-size:25px;
+    font-weight:bold
 }
