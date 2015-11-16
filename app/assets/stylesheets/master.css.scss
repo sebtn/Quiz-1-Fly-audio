@@ -77,19 +77,13 @@ div.speakers p {
     
 }
 
-.footer-blurb {
-    font-family: 'fascinateinline', sans-serif;
-    text-align:right;
-    font-size:15x;
-    
-}
-
-div.music {
-    text-align:left;
-    font-size:35px;
-    color: #FF0000;
-    font-weight: bold;    
-}
+@media (max-width: 750px) {
+    .footer-blurb {
+        font-family: 'fascinateinline', sans-serif;
+        text-align:left;
+        font-size:15x;
+        } 
+    }
 
 div.low-end{
     font-size: 25px;
