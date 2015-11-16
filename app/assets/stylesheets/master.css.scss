@@ -1,7 +1,5 @@
-
-
 body {
-	background: url('/assets/congruent_pentagon.png');
+	background: url('/assets/skulls.png');
 	font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
 	}	
 
@@ -12,8 +10,59 @@ body {
 }
 
 .navbar-inverse .navbar-brand {
-	color:#C36FDE;
+	color:#6243FA;
 	font-family: 'fascinateinline', sans-serif;
-	font-size: 45px;
+	font-size: 50px;	
+
+}
+
+.navbar-inverse .navbar-nav {
+	font-family: 'fascinateinline', sans-serif;
+	font-size: 25px;
 	
+}
+
+.clear {
+	clear:both;
+}
+
+div.jumbotron {
+    border: 5px double white;
+    opacity:0.25;
+    background-color:#000000;
+    
+}
+
+h3 {
+    color: #000000;
+    font-wieght: bold;
+}
+
+div.jumbotron p {
+    font-style: italic;
+    color:#ffffff;
+}
+
+div.jumbotron u {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+div.amp p{
+    border: 5px double white;
+    color: #ffffff;
+    font-size: 15px;
+    
+}
+
+div.caption {
+    opacity:0.65;
+    background-color:#808080;
+}
+
+div.dac p {
+    border: 5px double white;
+    color: #ffffff;
+    font-size: 15px;
+    
 }
