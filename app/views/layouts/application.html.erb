@@ -44,8 +44,8 @@
 </div>
 <br class="clear" />
 <br />
- <div class="col-sm-6 col-md-4 low end"> 
-  <div class="alert alert-warning" role="alert">Algo</div>
+ <div class="col-sm-6 col-md-4 low-end"> 
+  <div class="alert alert-info" role="alert"><b>Low entry combination</b></div>
  </div> 
 <br class="clear" />
 
@@ -90,13 +90,13 @@
 <br class="clear" />
 <br />
 <br />
-<div class="col-sm-6 col-md-4 mid end"> 
-  <div class="alert alert-warning" role="alert">Algo escrito aca</div>
+<div class="col-sm-6 col-md-4 mid-end"> 
+  <div class="alert alert-info" role="alert"><b>Mid entry combination</b></div>
  </div> 
 <br class="clear" />
 
 
-  <div class="col-sm-6 col-md-4">
+  <div class="col-sm-6 col-md-4 amp">
     <div class="thumbnail">
       <img src="..." alt="...">
       <div class="caption">
@@ -109,7 +109,7 @@
 
 
 
-  <div class="col-sm-6 col-md-4">
+  <div class="col-sm-6 col-md-4 dac">
     <div class="thumbnail">
       <img src="..." alt="...">
       <div class="caption">
@@ -121,7 +121,7 @@
   </div>
 
 
-  <div class="col-sm-6 col-md-4">
+  <div class="col-sm-6 col-md-4 speakers">
     <div class="thumbnail">
       <img src="..." alt="...">
       <div class="caption">
@@ -136,13 +136,13 @@
 <br class="clear" />
 <br />
 <br />
-<div class="col-sm-6 col-md-4 mid end"> 
-  <div class="alert alert-warning" role="alert">Algo escrito aca</div>
+<div class="col-sm-6 col-md-4 high-end"> 
+  <div class="alert alert-info" role="alert"><b>High end combination</b></div>
  </div> 
 <br class="clear" />
 
 
-  <div class="col-sm-6 col-md-4">
+  <div class="col-sm-6 col-md-4 amp">
     <div class="thumbnail">
       <img src="..." alt="...">
       <div class="caption">
@@ -155,7 +155,7 @@
 
 
 
-  <div class="col-sm-6 col-md-4">
+  <div class="col-sm-6 col-md-4 dac">
     <div class="thumbnail">
       <img src="..." alt="...">
       <div class="caption">
@@ -167,7 +167,7 @@
   </div>
 
 
-  <div class="col-sm-6 col-md-4">
+  <div class="col-sm-6 col-md-4 speakers">
     <div class="thumbnail">
       <img src="..." alt="...">
       <div class="caption">
@@ -178,10 +178,25 @@
     </div>
   </div>
 
-
-
+<br class="clear" />
+<br />
+<br />
 
 <%= yield %>
+
+<div class="footer">
+    <div class="container">
+      <div class="col-xs-12 col-sm-6 music">
+        <%= link_to "Music is worth well listen!", "http://www.discogs.com/" %>
+       </div> 
+         <div class="col-xs-12 col-sm-6 footer-blurb">
+          Hacked in Montreal By  <a href="https://github.com/sebtn">Seb</a><br />
+          Proudly built as part of the awesome Firehose Project <a href="https://www.thefirehoseproject.com/"</a>
+        </div>
+    </div>  
+</div> 
+
+
 
 </body>
 </html>
