@@ -36,12 +36,15 @@ div.jumbotron {
 h3 {
     color: #000000;
     font-wieght: bold;
+    font-size: 26px;
 }
 
 div.jumbotron p {
     font-style: italic;
     color:#ffffff;
+    font-size: 26px;
 }
+
 
 div.jumbotron u {
     color: #ffffff;
@@ -61,6 +64,13 @@ div.caption {
 }
 
 div.dac p {
+    border: 5px double white;
+    color: #ffffff;
+    font-size: 15px;
+    
+}
+
+div.speakers p {
     border: 5px double white;
     color: #ffffff;
     font-size: 15px;
